@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* 윈도우 크기가 1700px 이하 ~ 1600 px 이상일때 */
+
+@media all and (max-width:1600px) and (min-width:1250px){
+    html, body { 
+        font-size: 50%;
+      }
+   
+}
+
+@media all and (max-width:1249.9px) and (min-width:960px){
+    html, body { 
+        font-size: 50%;
+      }
+      .text{
+        font-size: 5rem;
+      }
+      .main-wrap nav .search{
+        width: 160px;
+      }
+      .socials i{
+        font-size: 28px;
+      }
+      .uxui-intro-wrap{
+        padding: 0 8%;
+      }
+      .uxui-wrap .swiper{
+        width: 50%;
+      }
+      .uxui-intro-wrap .uxui-logo{
+        height: 20%;
+      }
+      .uxui-intro-wrap .intro-text-wrap{
+        height: 80%;
+      }
+      .uxui-intro-wrap .intro-text-wrap .hashtag-wrap a{
+        padding: 4px 8px;
+      }
+      .hide-text-move h1{
+        font-size: 11rem;
+      }
+
+
+
+
+
+}
